@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mpr.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <title>Travel Guide</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Travel Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="explore.html">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggest.html">Suggest a plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="mynav">
+                    <li class="nav-item custom">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item custom">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="cols">
+        <div class="mid plans">
+            <div class="edges">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Mumbai
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                
+                        <div class="combine">
+                            <div class="accordion-body mumbai">
+                                <ul class="places">
+                                    <div class="back">
+                                        <div class="info">
+                                            <li class="site">Gateway Of India</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="GatewayofIndia">Add</button>
+                                                <button class="btn remove" aria-remove="GatewayofIndia">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Marine Drive</li>
+                                             <div class="arbtn">
+                                            <button class="btn add" aria-add="MarineDrive">Add</button>
+                                            <button class="btn remove" aria-remove="MarineDrive">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Girgaon Chowpatty</li>
+                                             <div class="arbtn">
+                                            <button class="btn add" aria-add="GirgaonChowpatty">Add</button>
+                                            <button class="btn remove" aria-remove="GirgaonChowpatty">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Bandstand</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="Bandstand">Add</button>
+                                                <button class="btn remove" aria-remove="Bandstand">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Nehru Planetorium</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="NehruPlanetoriumMumbai">Add</button>
+                                                <button class="btn remove" aria-remove="NehruPlanetorium">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Siddhivinayak Temple</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="SiddhivinayakTemple">Add</button>
+                                                <button class="btn remove" aria-remove="SiddhivinayakTemple">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Taraporewala Aquarium</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="TaraporewalaAquarium">Add</button>
+                                                <button class="btn remove" aria-remove="TaraporewalaAquarium">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Hanging Garden</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="HangingGarden">Add</button>
+                                                <button class="btn remove" aria-remove="HangingGarden">Remove</button>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <li class="site">Prince Of Wales Museum</li>
+                                            <div class="arbtn">
+                                                <button class="btn add" aria-add="PrinceOfWalesMuseum">Add</button>
+                                                <button class="btn remove" aria-remove="PrinceOfWalesMuseum">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Bengaluru
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body bengaluru">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Iskcon Temple Bangalore</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="IskconTempleBangalore">Add</button>
+                                                  <button class="btn remove" aria-remove="IskconTempleBangalore">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Cubbon Park</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="CubbonPark">Add</button>
+                                              <button class="btn remove" aria-remove="CubbonPark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Nandi Hills</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="NandiHills">Add</button>
+                                              <button class="btn remove" aria-remove="NandiHills">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Lalbagh Botanical Garden</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="LalbaghBotanicalGarden">Add</button>
+                                                  <button class="btn remove" aria-remove="LalbaghBotanicalGarden">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">UB City</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="UBCity">Add</button>
+                                                  <button class="btn remove" aria-remove="UBCity">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Visvesaraya Museum</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="VisvesarayaMuseum">Add</button>
+                                                  <button class="btn remove" aria-remove="VisvesarayaMuseum">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Bannerghatta National Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="BannerghattaNationalPark">Add</button>
+                                                  <button class="btn remove" aria-remove="BannerghattaNationalPark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Ulsoor Lake</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="UlsoorLake">Add</button>
+                                                  <button class="btn remove" aria-remove="UlsoorLake">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Bangalore Palace</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="BangalorePalace">Add</button>
+                                                  <button class="btn remove" aria-remove="BangalorePalace">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Hyderabad
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body hyderabad">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Charminar</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="Charminar">Add</button>
+                                                  <button class="btn remove" aria-remove="Charminar">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Golconda Fort</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="GolcondaFort">Add</button>
+                                              <button class="btn remove" aria-remove="GolcondaFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Salar Jung Museum</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="SalarJungMuseum">Add</button>
+                                              <button class="btn remove" aria-remove="SalarJungMuseum">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Ramoji Film City</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="RamojiFilmCity">Add</button>
+                                                  <button class="btn remove" aria-remove="RamojiFilmCity">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Hussain Sagar Lake</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="HussainSagarLake">Add</button>
+                                                  <button class="btn remove" aria-remove="HussainSagarLake">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Mecca Masjid</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="MeccaMasjid">Add</button>
+                                                  <button class="btn remove" aria-remove="MeccaMasjid">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Birla Mandir</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="BirlaMandir">Add</button>
+                                                  <button class="btn remove" aria-remove="BirlaMandir">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Nehru Zoological Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="NehruZoologicalPark">Add</button>
+                                                  <button class="btn remove" aria-remove="NehruZoologicalPark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Chowmahalla Palace</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ChowmahallaPalace">Add</button>
+                                                  <button class="btn remove" aria-remove="ChowmahallaPalace">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Delhi
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body delhi">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">India Gate</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="IndiaGate">Add</button>
+                                                  <button class="btn remove" aria-remove="IndiaGate">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Qutub Minar</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="QutubMinar">Add</button>
+                                              <button class="btn remove" aria-remove="QutubMinar">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Swaminarayan Temple</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="SwaminarayanAkshardhamTemple">Add</button>
+                                              <button class="btn remove" aria-remove="SwaminarayanAkshardhamTemple">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Humayun’s Tomb</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="Humayun’sTomb">Add</button>
+                                                  <button class="btn remove" aria-remove="Humayun’sTomb">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Museum Of Illusions</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="MuseumofIllusions">Add</button>
+                                                  <button class="btn remove" aria-remove="MuseumofIllusions">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Lotus Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="LotusTemple">Add</button>
+                                                  <button class="btn remove" aria-remove="LotusTemple">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">National Modern Art Gallery</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="NationalGalleryofModernArt">Add</button>
+                                                  <button class="btn remove" aria-remove="NationalGalleryofModernArt">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Red Fort</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="RedFort">Add</button>
+                                                  <button class="btn remove" aria-remove="RedFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Chandni Chowk</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ChandniChowk">Add</button>
+                                                  <button class="btn remove" aria-remove="ChandniChowk">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Kolkata
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body kolkata">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Mother House</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="MotherHouseKolkata">Add</button>
+                                                  <button class="btn remove" aria-remove="MotherHouseKolkata">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Dakshineshwar Kali Temple</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="DakshineshwarKaliTemple">Add</button>
+                                              <button class="btn remove" aria-remove="DakshineshwarKaliTemple">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Victoria Memorial Hall</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="VictoriaMemorialHall">Add</button>
+                                              <button class="btn remove" aria-remove="VictoriaMemorialHall">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Eco Tourism Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="EcoTourismParkKolkata">Add</button>
+                                                  <button class="btn remove" aria-remove="EcoTourismParkKolkata">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">HowrahBridge</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="HowrahBridge">Add</button>
+                                                  <button class="btn remove" aria-remove="HowrahBridge">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Eden Garden</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="EdenGarden">Add</button>
+                                                  <button class="btn remove" aria-remove="EdenGarden">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Science City</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ScienceCityKolkata">Add</button>
+                                                  <button class="btn remove" aria-remove="ScienceCityKolkata">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Quest Mall</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="QuestMall">Add</button>
+                                                  <button class="btn remove" aria-remove="QuestMall">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Prinsep Ghat</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="PrinsepGhat">Add</button>
+                                                  <button class="btn remove" aria-remove="PrinsepGhat">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Pune
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body pune">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Sinhagad Fort</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="SinhagadFort">Add</button>
+                                                  <button class="btn remove" aria-remove="SinhagadFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">National Defence Academy</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="NationalDefenceAcademy">Add</button>
+                                              <button class="btn remove" aria-remove="NationalDefenceAcademy">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">ISKCON NVCC Temple</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="ISKCONNVCCTemple">Add</button>
+                                              <button class="btn remove" aria-remove="ISKCONNVCCTemple">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Pune Okayama Garden</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="PuneOkayamaFriendshipGarden">Add</button>
+                                                  <button class="btn remove" aria-remove="PuneOkayamaFriendshipGarden">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Shri Balaji Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ShriBalajiTemplePune">Add</button>
+                                                  <button class="btn remove" aria-remove="ShriBalajiTemplePune">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Rajgad Fort</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="RajgadFortPune">Add</button>
+                                                  <button class="btn remove" aria-remove="RajgadFortPune">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Dagaduseth Halwai Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="DagadusethHalwaiGanapatiTemple">Add</button>
+                                                  <button class="btn remove" aria-remove="DagadusethHalwaiGanapatiTemple">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Visapur Fort</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="VisapurFort">Add</button>
+                                                  <button class="btn remove" aria-remove="VisapurFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Darshan Museum</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="DarshanMuseum">Add</button>
+                                                  <button class="btn remove" aria-remove="DarshanMuseum">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Jaipur
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body jaipur">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Jantar Mantar Jaipur</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="JantarMantarJaipur">Add</button>
+                                                  <button class="btn remove" aria-remove="JantarMantarJaipur">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Hawa Mahal</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="HawaMahal">Add</button>
+                                              <button class="btn remove" aria-remove="HawaMahal">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">NahargarhFort</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="NahargarhFort">Add</button>
+                                              <button class="btn remove" aria-remove="NahargarhFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Jaigarh Fort</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="JaigarhFort">Add</button>
+                                                  <button class="btn remove" aria-remove="JaigarhFort">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Akshardham Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="AkshardhamTempleJaipur">Add</button>
+                                                  <button class="btn remove" aria-remove="AkshardhamTempleJaipur">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Birla Mandir Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="BirlaMandirTempleJaipur">Add</button>
+                                                  <button class="btn remove" aria-remove="BirlaMandirTempleJaipur">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Jal Mahal</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="JalMahal">Add</button>
+                                                  <button class="btn remove" aria-remove="JalMahal">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">City Palace Of Jaipur</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="CityPalaceOfJaipur">Add</button>
+                                                  <button class="btn remove" aria-remove="CityPalaceOfJaipur">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Albert Hall Museum</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="AlbertHallMuseum">Add</button>
+                                                  <button class="btn remove" aria-remove="AlbertHallMuseum">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Ahmedabad
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body ahmedabad">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Kankaria Lake</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="KankariaLake">Add</button>
+                                                  <button class="btn remove" aria-remove="KankariaLake">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Gandhi Ashram</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="GandhiAshram">Add</button>
+                                              <button class="btn remove" aria-remove="GandhiAshram">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Sabarmati Riverfront</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="SabarmatiRiverfront">Add</button>
+                                              <button class="btn remove" aria-remove="SabarmatiRiverfront">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">ISKCON Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ISKCONTempleAhmedabad">Add</button>
+                                                  <button class="btn remove" aria-remove="ISKCONTempleAhmedabad">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Manek Chowk</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ManekChowkAhmedabad">Add</button>
+                                                  <button class="btn remove" aria-remove="ManekChowkAhmedabad">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Lothal</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="Lothal">Add</button>
+                                                  <button class="btn remove" aria-remove="Lothal">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Shree Camp Hanuman Mandir</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ShreeCampHanumanMandir">Add</button>
+                                                  <button class="btn remove" aria-remove="ShreeCampHanumanMandir">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Riverfront Flower Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="RiverfrontFlowerPark">Add</button>
+                                                  <button class="btn remove" aria-remove="RiverfrontFlowerPark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Hare Krishna Mandir</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="HareKrishnaMandir">Add</button>
+                                                  <button class="btn remove" aria-remove="HareKrishnaMandir">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingNine">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                            Chandigarh
+                          </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body chandigarh">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Elante Mall</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ElanteMall">Add</button>
+                                                  <button class="btn remove" aria-remove="ElanteMall">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">The Rock Garden</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="TheRockGardenOfChandigarh">Add</button>
+                                              <button class="btn remove" aria-remove="TheRockGardenOfChandigarh">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Sukhna Lake</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="SukhnaLake">Add</button>
+                                              <button class="btn remove" aria-remove="SukhnaLake">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Chandigarh RoseGarden</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ChandigarhRoseGarden">Add</button>
+                                                  <button class="btn remove" aria-remove="ChandigarhRoseGarden">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Punjab University</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="PunjabUniversity">Add</button>
+                                                  <button class="btn remove" aria-remove="PunjabUniversity">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Mahendra Chaudhary Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="MahendraChaudharyZoologicalPark">Add</button>
+                                                  <button class="btn remove" aria-remove="MahendraChaudharyZoologicalPark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Japanese Garden</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="JapaneseGardenChandigarh">Add</button>
+                                                  <button class="btn remove" aria-remove="JapaneseGardenChandigarh">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Dhillon Plaza</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="DhillonPlaza">Add</button>
+                                                  <button class="btn remove" aria-remove="DhillonPlaza">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Sector 17 Market</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="Sector17Market">Add</button>
+                                                  <button class="btn remove" aria-remove="Sector17Market">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header ch" id="flush-headingTen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Chennai
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                          <div class="combine">
+                              <div class="accordion-body chennai">
+                                  <ul class="places">
+                                      <div class="back">
+                                          <div class="info">
+                                              <li class="site">Kapaleeshwar Temple</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="KapaleeshwarTempleChennai">Add</button>
+                                                  <button class="btn remove" aria-remove="KapaleeshwarTempleChennai">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">VGP Snow Kingdom</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="VGPSnowKingdom">Add</button>
+                                              <button class="btn remove" aria-remove="VGPSnowKingdom">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Marina Beach</li>
+                                               <div class="arbtn">
+                                              <button class="btn add" aria-add="MarinaBeach">Add</button>
+                                              <button class="btn remove" aria-remove="MarinaBeach">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">St.Thomas Mount Shrine</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="St.ThomasMountNationalShrine">Add</button>
+                                                  <button class="btn remove" aria-remove="St.ThomasMountNationalShrine">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Chennai Rail Museum</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ChennaiRailMuseum">Add</button>
+                                                  <button class="btn remove" aria-remove="ChennaiRailMuseum">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">VGP Marine Kingdom</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="VGPMarineKingdom">Add</button>
+                                                  <button class="btn remove" aria-remove="VGPMarineKingdom">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Guindy Snake Park</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="GuindySnakePark">Add</button>
+                                                  <button class="btn remove" aria-remove="GuindySnakePark">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Brsant Nagar Beach</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="BrsantNagarBeach">Add</button>
+                                                  <button class="btn remove" aria-remove="BrsantNagarBeach">Remove</button>
+                                              </div>
+                                          </div>
+                                          <div class="info">
+                                              <li class="site">Valluvar Kottam</li>
+                                              <div class="arbtn">
+                                                  <button class="btn add" aria-add="ValluvarKottam">Add</button>
+                                                  <button class="btn remove" aria-remove="ValluvarKottam">Remove</button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </ul>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+        <div id="googleMap">
+            
+        </div>
+        <div id="link">
+            
+        </div>
+    </div>
+</div>
+    </div>
+    <footer>
+        <p>Copyright &copy 2022 - All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm-b8quns5Xjw-wlDmSnUAEwyMJTlcZvI&libraries=places"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

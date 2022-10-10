@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    background-color: dodgerblue;
+    border: 1px solid black;
+}
+
+.btn.add{
+    width: 65px;
+}
+
+#cols {
+    display: flex;
+}
+
+#map {
+    margin-top: 50px;
+    margin-right: 48px;
+}
+
+.alink{
+    text-decoration: none;
+}
+
+#link{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.mapbtn{
+    width: 190px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+/* .mapbtn:hover{
+    background-color: #659aea;
+    color: white;
+} */
+
+#googleMap {
+    width: 430px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.mynav {
+    display: flex;
+    margin: auto 0px;
+}
+
+.custom {
+    color: white;
+    list-style: none;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.mid {
+    height: 85.5vh;
+    overflow: auto;
+}
+
+.edges {
+    margin: 45px 60px;
+    width: 950px;
+    /* border: 2px solid black; */
+}
+
+.combine {
+    display: flex;
+}
+
+.accordion-header {
+    width: 950px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.ch{
+    border-bottom: 1px solid black;
+}
+
+.accordion-body {
+    width: 1000px;
+    /* background-color: rgb(62, 116, 167); */
+    /* background-image: url("mumbai-property.jpg"); */
+    /* background-blend-mode: lighten; */
+}
+
+.mumbai{
+    background-image: url("img/output-onlinepngtools.png");
+    background-size: cover;
+}
+
+.bengaluru{
+    background-image: url("img/bangalore.png");
+    background-size: cover;
+}
+
+.hyderabad{
+    background-image: url("img/hyderabad.png");
+    background-size: cover;
+}
+
+.delhi{
+    background-image: url("img/delhi.png");
+    background-size: cover;
+}
+
+.kolkata{
+    background-image: url("img/kolkata.png");
+    background-size: cover;
+}
+
+.pune{
+    background-image: url("img/pune.png");
+    background-size: cover;
+}
+
+.jaipur{
+    background-image: url("img/jaipur.png");
+    background-size: cover;
+}
+
+.ahmedabad{
+    background-image: url("img/ahmedabad.png");
+    background-size: cover;
+}
+
+.chandigarh{
+    background-image: url("img/chand.png");
+    background-size: cover;
+}
+
+.chennai{
+    background-image: url("img/chennai.png");
+    background-size: cover;
+}
+
+.info {
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.site {
+    list-style: none;
+    padding: 7px;
+    text-align: center;
+}
+
+button.btn {
+    width: 85px;
+    height: 30px;
+    padding-top: 2px;
+    background-color: cornflowerblue;
+}
+
+btn:focus {
+    background-color: transparent;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:500px) and (min-width:300px){
+    #cols{
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+    #googleMap{
+        width: 90vw;
+        margin: auto auto;
+        margin-left: 20px;
+        height: 400px;
+    }
+    .accordion-button{
+        width: 90vw;
+    }
+    .accordion-header{
+        width: 90vw;
+    }
+    .accordion-item{
+        width: 90vw;
+    }
+    .accordion-body{
+        padding: 2.5vw;
+        width: 90vw;
+    }
+    .accordion-flush{
+        width: 90vw;
+    }
+    .plans{
+        width: 100vw;
+        /* margin-top: 20px; */
+    }
+    .edges{
+        width: 90vw;
+        margin: 20px;;
+    }
+    .arbtn{
+        display: flex;
+    }
+    .places{
+        padding-left: 0px;
+    }
+    .site{
+        padding: 0px;
+        font-size: 14px;
+    }
+    .btn.add{
+        width: 40px;
+        margin-right: 5px;
+        font-size: 14px;
+        padding: 0px;
+    }
+    .btn.remove{
+        width: 60px;
+        padding: 0px;
+        font-size: 14px;
+    }
+    .info{
+        margin-bottom: 5px;
+    }
+    #map{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mapbtn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+}

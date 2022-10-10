@@ -1,0 +1,204 @@
+#intro {
+  background-color: aliceblue;
+  color: #5F9DF7;
+  background-image: url("img/Marine-Drive\ \(2\).jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* .container-fluid {
+    padding: 3% 15%;
+  } */
+.title {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  /* font-weight: 1000; */
+  color: white;
+}
+
+.topic{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mynav{
+  display: flex;
+  margin: auto 0px;
+}
+
+.hrstyle{
+  width: 30%;
+  border-width: 10px;
+  margin-left: 34%;
+  border-color: #5F9DF7;
+  border-style: dotted none none;
+}
+
+.custom {
+  color: white;
+  list-style: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.sp {
+  padding: 2% 10% 2%;
+}
+
+/* hr{
+  width: 30%;
+  border-width: 20px;
+  border-color: #5F9DF7;
+  border-style: dotted none none;
+}  */
+
+
+#feature {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.topic {
+  text-align: center;
+  color: #5F9DF7;
+}
+
+.icon {
+  color: #5F9DF7;
+  margin-bottom: 1rem;
+}
+
+
+.point {
+  text-align: center;
+  padding: 5%;
+}
+
+.box {
+  color: darkgrey;
+  font-weight: bold;
+}
+
+#destination {
+  color: #5F9DF7;
+}
+
+.centered {
+  position: relative;
+  display: inline;
+  text-align: center;
+  right: -27%;
+  top: -50%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.ds {
+  padding-top: 5%;
+  /* padding-left: 10%; */
+  padding-bottom: 5%;
+  /* margin: 10% 15% 15% 10%; */
+  padding-left: 7%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* padding-right: 5%; */
+}
+
+.img {
+  width: 600px;
+  height: 312px;
+  /* padding-bottom: 5%; */
+  /* margin-bottom: 1%; */
+  border-radius: 36px;
+  margin-right: 2%;
+
+  /* border-radius: 30px; */
+}
+
+.img:hover {
+  filter: brightness(100%) hue-rotate(30deg);
+  transform: scale(1.05);
+}
+
+.extra {
+  background-color: #5F9DF7;
+  height: 312px;
+  border-radius: 10%;
+  margin-right: 10%;
+}
+
+
+.text {
+  color: #fff;
+  text-align: center;
+  margin: 35px 0;
+  /* margin-top: 50px; */
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.exp{
+  text-decoration: none;
+  color: white;
+}
+
+.exp:hover{
+  color: white;
+}
+
+#ending {
+  background-color: #16213E;
+  color: #fff;
+  text-align: center;
+}
+
+footer{
+  padding-top: 10px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width:500px) and (min-width:300px){
+  .col-lg-6 col-sn-12{
+    display: flex;
+    flex-direction: column;
+  }
+  .ds{
+    display: flex;
+  }
+  .row{
+    margin-top: 20px;
+  }
+  .container-fluid col-lg-6{
+    padding-right: 0px;
+  }
+  .btn-lg{
+    width: 120px;
+  }
+  .img{
+    width: 350px;
+    height: 200px;
+  }
+  .topic{
+    font-size: 2rem;
+  }
+  .centered{
+    right: -17%;
+    top: -50%;
+  }
+  .text{
+    font-size: 2rem;
+  }
+  .extra{
+    width: 3px;
+    height: 200px;
+  }
+}
